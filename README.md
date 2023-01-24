@@ -1,10 +1,8 @@
 # docker-postgis
 
+A simple docker container that runs PostGIS.
 
-
-A simple docker container that runs PostGIS
-
-Visit our page on the docker hub at: https://hub.docker.com/r/kartoza/postgis/
+Forked from https://hub.docker.com/r/kartoza/postgis/
 
 There are a number of other docker postgis containers out there. This one
 differentiates itself by:
@@ -17,8 +15,8 @@ differentiates itself by:
 * Ability to create multiple database when you spin the database.
 * Enable multiple extensions in the database when setting it up
 
-We will work to add more security features to this container in the future with 
-the aim of making a PostGIS image that is ready to be used in a production 
+We will work to add more security features to this container in the future with
+the aim of making a PostGIS image that is ready to be used in a production
 environment (though probably not for heavy load databases).
 
 There is a nice 'from scratch' tutorial on using this docker image on Alex Urquhart's
